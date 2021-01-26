@@ -1,0 +1,646 @@
+.box {
+    border: 2px solid black;
+    height: 90%;
+    width: 90%;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    display: flex;
+}
+
+.left-content {
+    width: 30%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-content {
+    position: relative;
+    background-color:rgb(185, 55, 55);
+    width: 70%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fotoprofile {
+    border: 1px solid rgb(119, 80, 80);
+    width: 100%;
+    height: 90%;
+    background-image: url('https://scontent.fdps10-1.fna.fbcdn.net/v/t1.0-0/s600x600/123615491_2798422440399102_4193680593194661995_o.jpg?_nc_cat=105&ccb=2&_nc_sid=8bfeb9&_nc_eui2=AeEnWSVVCNUC_ONPDBmsGxS5pcTwU-HF2yulxPBT4cXbK_mqqKBVSiMZrt4rS_HuLgerFvfRX6Gsza1xD-rsYDyk&_nc_ohc=FCWhy4LaIqsAX8R-2Pc&_nc_ht=scontent.fdps10-1.fna&tp=7&oh=062f347c3f78df033353159c7f950a20&oe=60273BCA');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    justify-items: center;
+    
+}
+
+.medsos {
+    height: 10%;
+    background-color:rgb(3, 119, 119); 
+}
+
+.sosmed {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sosmed ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-inline-start: 0px;
+    align-items: center;
+    margin: 0px;
+    align-items: center;
+    flex: 1;
+}
+
+.sosmed ul a {
+    color: black;
+}
+
+.sosmed ul a img {
+    height: 35px;
+    width: 35px;
+}
+
+.sosmed ul a img:hover {
+    box-shadow: rgb(114, 102, 102);
+    transform: scale(1.2);
+}
+
+
+.header {
+    margin :0px;
+    flex: 1;
+}
+
+.header ul {
+    height: 10%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    background-color: rgb(3, 119, 119);
+    padding-inline-start: 0px;
+}
+
+.header ul li {
+    font-size: 20px;
+}
+
+.header ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-weight: 40px;
+    display: block;
+}
+
+.header ul li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(76, 79, 94);
+    font-weight: bolder;
+
+}
+
+p {
+    color:black;
+    font-family:monospace;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+
+.contentku {
+    margin: 0px;
+    padding: 0px;
+    height: 90%;
+    background-color:#cdceccfb ;
+    color: black;
+    font-weight: lighter;
+    text-align: center;
+    width: 100%;
+    overflow-y: scroll;
+    position: absolute;
+    bottom: 0px;
+}
+
+.dalemkonten {
+    margin-left: 13%;
+    margin-right:13%;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kolom1 {
+    display: flex;
+}
+
+.kolom2 {
+    display: flex;
+}
+
+.left {
+    width: 33.3%;
+}
+
+.tl {
+    font-size: 15px;
+    height: 50%;
+    font-weight: bold;
+    color: black;
+}
+
+.tu {
+    font-size: 13px;
+    font-weight: bolder;
+    height: 50%;
+}
+
+.kotak {
+    width: 70%;
+    background-color: rgb(3, 119, 119);
+    border-radius: 18%;
+    border: 3px rgb(2 80 80) solid;
+    height: 90%;
+    padding: 0px 3px;
+    margin-left: 12%;
+    margin-right: 12%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.kotak:hover {
+    transform:scale(1.1);
+}
+
+.img img {
+    width: 150px;
+    height: 150px;
+}
+
+.img img:hover {
+    transform: scale(1.2);
+}
+
+.text {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Pyhton {
+    margin: 10px 20px;
+}
+
+@media screen and (max-width: 1025px) and (min-height: 1300px){
+    .box {
+        border: 2px solid black;
+        height: 90%;
+        width: 90%;
+        position: fixed;
+        top: 5%;
+        left: 5%;
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(3, 119, 119);
+    }
+
+    .left-content {
+        height: 42%;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fotoprofile {
+        border: 1px solid rgb(119, 80, 80);
+        width: 100%;
+        height: 85%;
+        background-image: url('https://i.ibb.co/RTPYMhD/20210123-221253.jpg');
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        
+    }
+    
+    .right-content {
+        width: 100%;
+        position: relative;
+        background-color:rgb(185, 55, 55);
+        height: 60%;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dalemkonten {
+        margin-left: 10%;
+        margin-right:10%;
+    }
+
+    .medsos {
+        height: 10%;
+        background-color:rgb(3, 119, 119); 
+        position: relative;
+    }
+    
+    .sosmed {
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(3, 119, 119);
+    }
+    
+    .sosmed ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding-inline-start: 0px;
+        align-items: center;
+        margin: 0px;
+        align-items: center;
+        flex: 1;
+        background-color:rgb(3, 119, 119);
+    }
+
+    .sosmed ul a img {
+        height: 35px;
+        width: 35px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+    
+    .header ul li {
+        font-size: 24px;
+    }
+
+    .kotak p {
+        font-size: 21px;
+    }
+
+    .tl {
+        font-size: 21px;
+        height: 50%;
+        font-weight: bold;
+        color: black;
+    }
+
+    .header {
+        margin :0px;
+        flex: 1;
+        border-top: solid 1px black;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .box {
+        border: 2px solid black;
+        height: 90%;
+        width: 90%;
+        position: fixed;
+        top: 5%;
+        left: 5%;
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(3, 119, 119);
+    }
+
+    .left-content {
+        height: 42%;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fotoprofile {
+        border: 1px solid rgb(119, 80, 80);
+        width: 100%;
+        height: 85%;
+        background-image: url('https://i.ibb.co/RTPYMhD/20210123-221253.jpg');
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        
+    }
+    
+    .right-content {
+        width: 100%;
+        position: relative;
+        background-color:rgb(185, 55, 55);
+        height: 60%;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dalemkonten {
+        margin-left: 10%;
+        margin-right:10%;
+    }
+
+    .medsos {
+        height: 10%;
+        background-color:rgb(3, 119, 119); 
+        position: relative;
+    }
+    
+    .sosmed {
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(3, 119, 119);
+    }
+    
+    .sosmed ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding-inline-start: 0px;
+        align-items: center;
+        margin: 0px;
+        align-items: center;
+        flex: 1;
+        background-color:rgb(3, 119, 119);
+    }
+
+    .sosmed ul a img {
+        height: 25px;
+        width: 25px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+    
+    .header ul li {
+        font-size: 16px;
+    }
+
+    .kotak p {
+        font-size: 14px;
+    }
+
+    .tl {
+        font-size: 14px;
+        height: 50%;
+        font-weight: bold;
+        color: black;
+    }
+
+    .header {
+        margin :0px;
+        flex: 1;
+        border-top: solid 1px black;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .box {
+        border: 2px solid black;
+        height: 95%;
+        width: 95%;
+        position: fixed;
+        top: 2.5%;
+        left: 2.5%;
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(3, 119, 119);
+    }
+
+    .left-content {
+        height: 42%;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fotoprofile {
+        border: 1px solid rgb(119, 80, 80);
+        width: 100%;
+        height: 85%;
+        background-image: url('https://i.ibb.co/RTPYMhD/20210123-221253.jpg');
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        
+    }
+    
+    .right-content {
+        width: 100%;
+        position: relative;
+        background-color:rgb(185, 55, 55);
+        height: 60%;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dalemkonten {
+        margin-left: 3%;
+        margin-right:3%;
+    }
+
+    .medsos {
+        height: 10%;
+        background-color:rgb(3, 119, 119); 
+        position: relative;
+    }
+    
+    .sosmed {
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(3, 119, 119);
+    }
+    
+    .sosmed ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding-inline-start: 0px;
+        align-items: center;
+        margin: 0px;
+        align-items: center;
+        flex: 1;
+        background-color:rgb(3, 119, 119);
+    }
+
+    .sosmed ul a img {
+        height: 25px;
+        width: 25px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+    
+    .header ul li {
+        font-size: 16px;
+    }
+
+    .header ul li a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        font-weight: 40px;
+        display: block;
+        font-size: 12.7px;
+    }
+
+    .kotak p {
+        font-size: 13px;
+    }
+
+    .tl {
+        font-size: 13px;
+        height: 50%;
+        font-weight: bold;
+        color: black;
+    }
+
+    .header {
+        margin :0px;
+        flex: 1;
+        border-top: solid 1px black;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .box {
+        border: 2px solid black;
+        height: 95%;
+        width: 95%;
+        position: fixed;
+        top: 2.5%;
+        left: 2.5%;
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(3, 119, 119);
+    }
+
+    .left-content {
+        height: 42%;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fotoprofile {
+        border: 1px solid rgb(119, 80, 80);
+        width: 100%;
+        height: 85%;
+        background-image: url('https://i.ibb.co/RTPYMhD/20210123-221253.jpg');
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        
+    }
+    
+    .right-content {
+        width: 100%;
+        position: relative;
+        background-color:rgb(185, 55, 55);
+        height: 60%;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dalemkonten {
+        margin-left: 3%;
+        margin-right:3%;
+    }
+
+    .medsos {
+        height: 10%;
+        background-color:rgb(3, 119, 119); 
+        position: relative;
+    }
+    
+    .sosmed {
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(3, 119, 119);
+    }
+    
+    .sosmed ul {
+        display: flex;
+        justify-content: space-evenly;
+        padding-inline-start: 0px;
+        align-items: center;
+        margin: 0px;
+        align-items: center;
+        flex: 1;
+        background-color:rgb(3, 119, 119);
+    }
+
+    .sosmed ul a img {
+        height: 25px;
+        width: 25px;
+    }
+
+    p {
+        font-size: 12.3px;
+    }
+    
+    .header ul li {
+        font-size: 13px;
+    }
+
+    .kotak p {
+        font-size: 11px;
+    }
+
+    .header ul li a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        font-weight: 40px;
+        display: block;
+        font-size: 10.5px;
+    }
+
+    .tl {
+        font-size: 12px;
+        height: 50%;
+        font-weight: bold;
+        color: black;
+    }
+
+    .header {
+        margin :0px;
+        flex: 1;
+        border-top: solid 1px black;
+    }
+}
